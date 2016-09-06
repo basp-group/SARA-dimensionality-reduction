@@ -1,0 +1,9 @@
+Maintain all simulation logs here in per-image subdirectories.
+"discarding" is a subdirectory to store logs of reconstruction from further
+reduced data by discarding singular values etc.
+
+Example:
+
+logs
+logs/m31
+logs/m31/discarding
