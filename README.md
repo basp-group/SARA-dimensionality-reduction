@@ -1,6 +1,6 @@
 # A Fourier dimensionality reduction model for big data interferometric imaging
 
-MATLAB code to run image reconstruction from embedded data using the dimensionality reduction methods described in the article "A dimensionality reduction model for big data interferometric imaging"
+MATLAB code to run image reconstruction from embedded data using the dimensionality reduction methods described in the article "A Fourier dimensionality reduction model for big data interferometric imaging"
 
 Please run "example_reconstruction_admm" to reconstruct M31 images with reduced data.
 
@@ -18,10 +18,10 @@ Results and logging details are found in corresponding subdirectories.
 <h3>
 <a id="authors-and-contributors" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Authors and Contributors</h3>
 
-<p>Vijay Kartik (<a href="https://github.com/vijaykartik" class="user-mention">@vijaykartik</a>), Rafael Carrillo, Jean-Philippe Thiran and Yves Wiaux</p>
+<p>S. Vijay Kartik (<a href="https://github.com/vijaykartik" class="user-mention">@vijaykartik</a>), Rafael Carrillo, Jean-Philippe Thiran and Yves Wiaux</p>
 
 <h3>
 <a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Support or Contact</h3>
 
-<p>Vijay Kartik (<a href="https://github.com/vijaykartik" class="user-mention">@vijaykartik</a>)</p>
+<p>S. Vijay Kartik (<a href="https://github.com/vijaykartik" class="user-mention">@vijaykartik</a>)</p>
 
