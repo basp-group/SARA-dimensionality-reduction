@@ -1,11 +1,10 @@
 # A Fourier dimensionality reduction model for big data interferometric imaging
 
-MATLAB code to run image reconstruction from embedded data using the dimensionality reduction methods described in the article "A Fourier dimensionality reduction model for big data interferometric imaging"
-
 Please run "example_reconstruction_admm" to reconstruct M31 images with reduced data.
 
 Results and logging details are found in corresponding subdirectories.
 
+<h3>
 <a id="contents" class="anchor" href="#contents" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Contents</h3>
 
 <p>1. MATLAB code implementing Fourier-based dimensionality reduction of interferometric data<br>2. Example tests running M31 image reconstruction<br>3. Coverage data<br>4. Test images M31 and Cygnus A</p>
