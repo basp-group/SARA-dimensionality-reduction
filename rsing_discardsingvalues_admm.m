@@ -37,14 +37,8 @@ if regexpi(imgfile, '\w*m31\w*.fits')
     subdirname = 'm31';
 elseif regexpi(imgfile, '\w*30dor\w*.fits')
     subdirname = '30dor';
-elseif regexpi(imgfile, '\w*M87ABABCPCONV6\w*.fits')
-    subdirname = 'm87';
-elseif regexpi(imgfile, '\w*g41\w*.fits')
-    subdirname = 'g41';
-elseif regexpi(imgfile, '\w*CYG\w*.fits')
+elseif regexpi(imgfile, '\w*cyg\w*.fits')
     subdirname = 'cyga';
-elseif regexpi(imgfile, '\w*cluster\w*.fits')
-    subdirname = 'galaxycluster';
 else
     error('Unknown test image - no corresponding log/results folder');
 end
