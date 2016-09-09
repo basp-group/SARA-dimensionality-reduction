@@ -80,7 +80,7 @@ tstart1=tic;
 if(coveragefileexists)
     fprintf('Loading coverage file... ');
     [u1, v1, w1] = readCoverageFile(coveragefile, visibSize);
-    zoomthreshold = 6e4;
+    zoomthreshold = 6e15;
     u = u1(abs(u1)<zoomthreshold & abs(v1)<zoomthreshold);
     v = v1(abs(u1)<zoomthreshold & abs(v1)<zoomthreshold);
     scaler = max(max(u), max(v));
