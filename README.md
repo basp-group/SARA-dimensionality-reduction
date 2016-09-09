@@ -12,7 +12,7 @@ Results and logging details are found in corresponding subdirectories.
 <h3>
 <a id="based-on" class="anchor" href="#based-on" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Based on:</h3>
 
-<p> "A Fourier dimensionality reduction model for big data interferometric imaging", 2016.<br>Submitted to Monthly Notices of the Royal Astronomical Society.</p>
+<p> "A Fourier dimensionality reduction model for big data interferometric imaging", 2016.<br>Submitted to Monthly Notices of the Royal Astronomical Society.<br><a href="http://arxiv.org/abs/1609.02097">(arXiv preprint)</p>
 
 <h3>
 <a id="authors-and-contributors" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Authors and Contributors</h3>
