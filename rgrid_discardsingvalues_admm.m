@@ -67,11 +67,11 @@ seeplots = 1;
 % Flag to use simulated coverage or pre-existing 'real' telescope coverage
 coveragefileexists = 1;
 % Flag to use precomputed matrix G
-Gfileexists = 1;
+Gfileexists = 0;
 
 % Complete data to be loaded in for the simulations using same initial
 % visibilities
-Alldatafromfiles = 1;
+Alldatafromfiles = 0;
 Gfile=sprintf('data/discardsingvalues_data/discardsingvalues_data_fphit_st.i%d.p%d.mat', Ny, ceil(visibSize/N));
 yfile=sprintf('data/discardsingvalues_data/discardsingvalues_data_fphit_y.i%d.p%d.mat', Ny, ceil(visibSize/N));
 noisefile=sprintf('data/discardsingvalues_data/discardsingvalues_data_fphit_noise.i%d.p%d.mat', Ny, ceil(visibSize/N));
