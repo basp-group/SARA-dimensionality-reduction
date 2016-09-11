@@ -21,9 +21,9 @@ run = 1;
 [SNR_allvisibs, DR_allvisibs, M_allvisibs, ~, tend_allvisibs] = allvisibs_admm(visibSize, input_snr, imgfile, coveragefile, run);
 
 [SNR_rsing, DR_rsing, M_rsing, ~, tend_rsing] = rsing_admm(visibSize, input_snr, imgfile, coveragefile, run);
-[SNR_rsing_discarding, DR_rsing_discarding, M_rsing_discarding, ~, tend_rsing_discarding] = rsing_discardsingvalues_admm(visibSize, input_snr, imgfile, coveragefile, klargestpercent, run);
+%[SNR_rsing_discarding, DR_rsing_discarding, M_rsing_discarding, ~, tend_rsing_discarding] = rsing_discardsingvalues_admm(visibSize, input_snr, imgfile, coveragefile, klargestpercent, run);
 
 [SNR_rgrid, DR_rgrid, M_rgrid, ~, tend_rgrid] = rgrid_admm(visibSize, input_snr, imgfile, coveragefile, run);
-[SNR_rgrid_discarding, DR_rgrid_discarding, M_rgrid_discarding, ~, tend_rgrid_discarding] = rgrid_discardsingvalues_admm(visibSize, input_snr, imgfile, coveragefile, klargestpercent, run);
+%[SNR_rgrid_discarding, DR_rgrid_discarding, M_rgrid_discarding, ~, tend_rgrid_discarding] = rgrid_discardsingvalues_admm(visibSize, input_snr, imgfile, coveragefile, klargestpercent, run);
 
 
