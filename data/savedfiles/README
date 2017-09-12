@@ -1,0 +1,2 @@
+Place pre-computed data here for reuse later.
+This is not strictly necessary, as variables like the covariance matrix, Phi^TPhi, etc can be computed each time separately also.
