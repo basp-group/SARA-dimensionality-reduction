@@ -1,3 +1,13 @@
+## Real data
+For running tests on real telescope data, the test programs will automatically save reconstruction results in the following directory structure:
+
+results
+results/allvisibs
+results/averaging
+results/rgrid
+results/rsing
+
+## Simulations
 Maintain all simulation results as MAT files here in per-image subdirectories.
 "discarding" is a subdirectory to store reconstruction results from further
 reduced data by discarding singular values etc.
