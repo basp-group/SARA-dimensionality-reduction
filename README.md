@@ -1,25 +1,46 @@
-# A Fourier dimensionality reduction model for big data interferometric imaging
+# Fourier dimensionality reduction for radio interferometry
 
-Please run "example_reconstruction_admm" to reconstruct M31 images with reduced data.
+Code repository for dimensionality reduction techniques proposed for radio-interferometric data.
+
+MATLAB programs for tests on real and simulated data are made available here. For more details of the mathematical background and corresponding results, please refer to the following articles:
+
+## Real data:  Robust dimensionality reduction for interferometric imaging of Cygnus A
+
+Please run the tests from `realdata_*_pdfb.m`.
+
+Results are automatically stored in corresponding subdirectories.
+
+#### Based on:
+["Robust dimensionality reduction for interferometric imaging of Cygnus A"](https://arxiv.org/abs/1709.03950)
+
+Submitted to Monthly Notices of the Royal Astronomical Society
+
+## Simulated data: A Fourier dimensionality reduction model for big data interferometric imaging
+
+Please run `example_reconstruction_admm.m` to reconstruct M31 images with reduced data.
 
 Results and logging details are found in corresponding subdirectories.
 
-<h3>
-<a id="contents" class="anchor" href="#contents" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Contents</h3>
+#### Based on:
+["A Fourier dimensionality reduction model for big data interferometric imaging"](http://arxiv.org/abs/1609.02097)
 
-<p>1. MATLAB code implementing Fourier-based dimensionality reduction of interferometric data<br>2. Example tests running M31 image reconstruction<br>3. Coverage data<br>4. Test images M31 and Cygnus A</p>
-<p>Dependency: Nonuniform FFT toolbox <a href="http://web.eecs.umich.edu/~fessler/irt/fessler.tgz">(Download toolbox) &nbsp;</a><a href="http://dx.doi.org/10.1109/TSP.2002.807005">&nbsp;(Read reference article)</a></p>
-<h3>
-<a id="based-on" class="anchor" href="#based-on" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Based on:</h3>
+Monthly Notices of the Royal Astronomical Society (2017) 468 (2): 2382-2400.
 
-<p><a href="http://arxiv.org/abs/1609.02097">"A Fourier dimensionality reduction model for big data interferometric imaging"</a>.<br>Monthly Notices of the Royal Astronomical Society (2017) 468 (2): 2382-2400.</p>
+## Contents
 
-<h3>
-<a id="authors-and-contributors" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Authors and Contributors</h3>
+1. MATLAB code implementing Fourier-based dimensionality reduction of interferometric data
+2. Tests running on real interferometer data, with different dimensionality reduction methods
+3. Example tests running M31 image reconstruction
+4. Coverage data
+5. Test images M31 and Cygnus A
 
-<p>S. Vijay Kartik (<a href="https://github.com/vijaykartik" class="user-mention">@vijaykartik</a>), Rafael E. Carrillo, Jean-Philippe Thiran and Yves Wiaux</p>
+#### Dependency: Nonuniform FFT toolbox [(Download toolbox)](http://web.eecs.umich.edu/~fessler/irt/fessler.tgz) [(Read reference article)](http://dx.doi.org/10.1109/TSP.2002.807005)
 
-<h3>
-<a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Support or Contact</h3>
 
-<p>S. Vijay Kartik (<a href="https://github.com/vijaykartik" class="user-mention">@vijaykartik</a>)</p>
+### Authors and Contributors
+
+S. Vijay Kartik ([@vijaykartik](https://github.com/vijaykartik)), Rafael E. Carrillo, Arwa Dabbech, Jean-Philippe Thiran and Yves Wiaux
+
+### Support or Contact
+
+S. Vijay Kartik ([@vijaykartik](https://github.com/vijaykartik))
