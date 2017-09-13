@@ -1,11 +1,3 @@
----
-layout: page
-theme: jekyll-theme-cayman
-title: Robust dimensionality reduction of interferometry data
-tagline: Fourier dimensionality reduction model
-description: Code hosting for robust dimensionality reduction of interferometry data
----
-
 # Fourier dimensionality reduction for radio interferometry
 
 Code repository for dimensionality reduction techniques proposed for radio-interferometric data.
