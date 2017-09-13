@@ -24,7 +24,7 @@ Results and logging details are found in corresponding subdirectories.
 #### Based on:
 ["A Fourier dimensionality reduction model for big data interferometric imaging"](http://arxiv.org/abs/1609.02097)
 
-Monthly Notices of the Royal Astronomical Society (2017) 468 (2): 2382-2400.
+Monthly Notices of the Royal Astronomical Society (2017) [468 (2): 2382-2400](https://doi.org/10.1093/mnras/stx531).
 
 ## Contents
 
